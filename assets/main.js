@@ -6,14 +6,13 @@ puntoUno.addEventListener("submit", (uno) => {
     let sumitas= 0
     let estaSiEs = document.querySelector("#auxilioSiFuncionaLloro")
 
-    estaSiEs.innerHTML = '';
     
     for (let sos = 1; sos <= noSeQueNombrePoner; sos++) {
         sumitas += sos;
         estaSiEs.innerHTML += `${sumitas} + ${sos} = ${ sumitas + sos } <br>`
       }console.log(`${sumitas}`)
-      
-})
+    
+})//sos auxilio
 // Aquí 2 Número Par
 let puntoDos = document.querySelector("#formulario2")
 puntoDos.addEventListener("submit", (cosas)=> {
